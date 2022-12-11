@@ -1,1 +1,5 @@
-.dstore
+# ignore everything in the root except the "wp-content" directory.
+api_keys.py
+.DS_Store
+Draft.ipynb
+MLS_Code.ipynb
