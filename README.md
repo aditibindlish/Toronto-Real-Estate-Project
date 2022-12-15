@@ -21,6 +21,15 @@ https://www.kaggle.com/code/alankmwong/exampletorontohousingindex
 3.    Conclusion statements
 4.    Powerpoint/Presentation - together on Thursday 
 
+###Q1: What type of housing has gained in price growth over the years, and what has had a slower growth in price?
+--Split the Year over year change rate for each type of housing from the dataset
+--Sort data for year over year change rate of each sperate years
+--combine the data for year over year change rate and calculate the average for each year.
+
+###Q1: Results
+-- According to the dataset, the Apartment has the most growth between 2016 to 2017, but after that it has a significant decrased from 2018 to 2020, which has the lowest year over year change rate among all four type of housing in 2020. In the other hand, Town House has the most increased of the year over year rate change. 
+-- The highest peak of all the growth are in 2017, and the lowest in 2018
+
 ###Q2: What were the highest prices of each property type over time, and which areas had these highest prices?
 --Split out data by each type of housing
 --Sort data by Date and by Benchmark prices in descending order
