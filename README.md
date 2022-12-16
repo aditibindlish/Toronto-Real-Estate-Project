@@ -37,8 +37,12 @@ https://www.kaggle.com/code/alankmwong/exampletorontohousingindex
 --Determine unique values in the filtered dataset (the places with the highest prices) and plot the highest prices over time 
 
 ###Q2: Results
---For single family houses (detached and attached), we see the prices rise sharply during the 2017 housing bubble and then sharply come back down afterwards. However for townhouses and apartments, they didn't really fall back down but instead continued to rise over the next few years
---Peak prices tend to stay in the Toronto areas, with the highest prices in Toronto C12 (Bridle Path-Hoggs Hollow)
+--Overall, for single family houses (detached and attached), we see the prices rise sharply during the 2017 housing bubble and then sharply come back down afterwards. However, for townhouses and apartments, they didn't really fall back down but instead continued to rise over the next few years.
+--Peak prices tend to stay in the Toronto areas, with the highest prices in Toronto C12 (Bridle Path-Hoggs Hollow).
+--For single family detached homes, prices peaked in April 2017 at $2.54M, followed by a steep decrease to a low of $2.1M before climbing back up. By March 2021, prices had climbed back up to $2.51M but had not surpassed the 2017 peak yet. Toronto C12 (Bridle Path-Hoggs Hollow) had the highest prices in this category across all months of data used. 
+--For single family attached homes, prices peaked in May 2017 at $1.49M in Toronto C02 (Annex-Wychwood). Prices are higher than ever since 2015 at $1.68M in March 2021. The three most expensive areas in this category over time are Toronto C02, Toronto C09 (Rosedale-Moore Park), and Toronto C08 (Downtown East). 
+--For townhouses, there was a steep increase in June 2017 when prices jumped $100k. The peak price occurred in October 2020 at $1.75M in Toronto C09. After prices passed the $1.5M mark, they have not had as much fluctuation and remained between $1.5M and $1.75M. The three areas with the highest prices in this category over time are Toronto C02, Toronto E02 (Beaches), and Toronto C09. 
+--For apartments, there has bee na more gradual increase month over month than we saw in the houses. There has been a steady rise since July 2015 in prices, however a steep increase from Jan-July 2017 when prices hit $838k in Toronto C03 (Forest Hill-Oakwood). Prices continued to increase over time to a peak of $1M in February 2021 (Toronto C03). Before 2017, Toronto W02 (Junction-High Park) had the highest prices, but from then on Toronto C03 dominated prices for most months. 
 
 ###Q4: How much time does it take each property type to double in value in each area?
 --Clean dataframe used to groupby locations and sort for location and prices for max and min prices
